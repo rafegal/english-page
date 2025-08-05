@@ -11,13 +11,13 @@ The site demonstrates how to create rich and interactive documentation using onl
 
 ## 🌐 Live Site
 
-Access: **[https://yourusername.github.io/english-page](https://yourusername.github.io/english-page)**
+Access: **[https://rafegal.github.io/english-page](https://rafegal.github.io/english-page)**
 
 ## 🚀 How to Run Locally
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/english-page.git
+git clone https://github.com/rafegal/english-page.git
 cd english-page
 
 # Install dependencies
