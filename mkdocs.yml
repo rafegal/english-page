@@ -1,0 +1,44 @@
+site_name: ENGLISH PRACTICE
+
+nav:
+  - Home: index.md
+  - Grammar:
+    - Present Tense: grammar/present-tense.md
+    - Past Tense: grammar/past-tense.md
+    - Future Tense: grammar/future-tense.md
+  - Exercises:
+    - Present Tense Practice: exercises/present-tense-exercises.md
+    - Past Tense Practice: exercises/past-tense-exercises.md
+    - Future Tense Practice: exercises/future-tense-exercises.md
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+theme:
+  name: material
+  font: Roboto Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+      primary: teal
+      accent: indigo
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+      primary: teal
+      accent: indigo
+
+  logo: 'img/english_favicon.png'
+  favicon: 'img/english_favicon.png'
